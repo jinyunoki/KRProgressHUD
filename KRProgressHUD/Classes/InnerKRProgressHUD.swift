@@ -10,7 +10,7 @@ import UIKit
 fileprivate let fadeTime = Double(0.2)
 fileprivate let hudSize = CGSize(width: 150, height: 110)
 fileprivate let simpleHUDSize = CGSize(width: 100, height: 100)
-fileprivate let iconViewSize = CGSize(width: 50, height: 50)
+fileprivate let iconViewSize = CGSize(width: 91, height: 91)
 fileprivate let iconViewCenter = CGPoint(x: hudSize.width/2, y: 40)
 fileprivate let simpleHUDIconViewCenter = CGPoint(x: simpleHUDSize.width/2, y: 50)
 fileprivate let messageLabelMargin = CGFloat(10)
