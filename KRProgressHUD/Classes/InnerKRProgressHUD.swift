@@ -12,7 +12,7 @@ fileprivate let hudSize = CGSize(width: 150, height: 110)
 fileprivate let simpleHUDSize = CGSize(width: 130, height: 130)
 fileprivate let iconViewSize = CGSize(width: 91, height: 91)
 fileprivate let iconViewCenter = CGPoint(x: hudSize.width/2, y: 40)
-fileprivate let simpleHUDIconViewCenter = CGPoint(x: simpleHUDSize.width/2, y: 50)
+fileprivate let simpleHUDIconViewCenter = CGPoint(x: simpleHUDSize.width/2, y: simpleHUDSize.height/2)
 fileprivate let messageLabelMargin = CGFloat(10)
 fileprivate let messageLabelFrame = CGRect(x: messageLabelMargin,
                                            y: iconViewCenter.y + iconViewSize.height / 2 + messageLabelMargin,
