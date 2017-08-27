@@ -28,7 +28,7 @@ extension KRProgressHUD {
       hudView.frame.size = hudSize
       hudView.center = viewAppearance.viewCenterPosition
       hudView.backgroundColor = .white
-      hudView.layer.cornerRadius = 65
+      hudView.layer.cornerRadius = simpleHUDSize.width/2
       hudView.autoresizingMask = [.flexibleTopMargin, .flexibleBottomMargin,
                                   .flexibleLeftMargin, .flexibleRightMargin]
 
